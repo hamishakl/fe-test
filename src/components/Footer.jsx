@@ -27,15 +27,15 @@ export default class Footer extends Component {
         <div className="footer__column footer__column--2">
 
         <div className="footer__social__wrapper">
-          <div className="footer__social__svg__wrapper">
+          <a href="https://hamishhenare.com"className="footer__social__svg__wrapper">
             <Facebook />
-          </div>
-          <div className="footer__social__svg__wrapper">
+          </a>
+          <a href="https://hamishhenare.com" className="footer__social__svg__wrapper">
             <Instagram />
-          </div>
-          <div className="footer__social__svg__wrapper">
+          </a>
+          <a href="https://hamishhenare.com" className="footer__social__svg__wrapper">
             <Youtube />
-          </div>
+          </a>
         </div>
         <p className="footer__text footer__outro">
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
