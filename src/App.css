@@ -1,6 +1,13 @@
-.heading {
+.header__heading {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.heading {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body, html {
@@ -26,19 +33,15 @@ body, html {
 }
 
 .form__wrapper {
-    height: 90vh;
+    height: 80vh;
     justify-content: space-evenly;
 }
 
 .gallery{
-    height: 33vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     overflow: scroll;
+    align-items: center;
 }
 
-.gallery__image{
-    height: 100%;
-    border-radius: 0.4em;
-    margin-right: 1em;
-}

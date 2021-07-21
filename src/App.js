@@ -20,11 +20,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="wrapper form__wrapper">
+      <header className="heading">
         <HeadingText />
+      </header>
+      <div className="wrapper form__wrapper">
         <Form />
+        <Divider />
       </div>
-      <Divider />
       <div className="wrapper card__wrapper">
         <Card
           imgId={"image1"}

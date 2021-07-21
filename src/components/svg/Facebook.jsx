@@ -15,7 +15,7 @@ const Facebook = () => {
       <g
         id="Frontend-Test"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
         fillRule="evenodd"
       >

@@ -1,0 +1,9 @@
+.gallery__image {
+  display: block;
+  max-width: 85%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+  border-radius: 0.4em;
+  margin-right: 1em;
+}

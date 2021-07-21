@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 65%;
+    height: 68%;
     width: 95%;
 }
 
@@ -13,7 +13,8 @@
     border-radius: 7px;
     padding: 0 1em 0 1em;
     border-width: 1px;
-    border-color: grey;
+    border-color: #D2DCE8;
+    color: #697B95;
 }
 
 .form__select {
