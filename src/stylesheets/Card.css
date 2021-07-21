@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 49vh;
+    width: 93%;
+    margin-bottom: 30px;
+}
+
+.card__img-div{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.4em;
+    background-size: cover;
+    background-position: center;
+}
+
+#image1 {
+    background-image: url('../images/image1.png');
+}
+#image2 {
+    background-image: url('../images/image2.png');
+}
+
+.card__heading{
+    color: #697B95;
+}
+
+.card__description{
+    color: #697B95;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.23px;
+}
+
+.card__link {
+    color: #008FFF;
+    text-decoration: none;
+}
