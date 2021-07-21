@@ -1,3 +1,7 @@
+.card__wrapper {
+    height: auto;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -40,6 +44,13 @@
 }
 
 @media (min-width: 700px){
+    .card__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
     .card {
         width: 48%;
         height: 40vh;

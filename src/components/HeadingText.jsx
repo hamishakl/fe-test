@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../stylesheets/Header.css'
 
 export default class HeadingText extends Component {
     render() {
