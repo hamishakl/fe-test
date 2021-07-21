@@ -9,6 +9,7 @@ export default class CardWrapper extends Component {
       <section className="wrapper card__wrapper">
         <Card
           imgId={"image1"}
+          imgAria={"A landscape of mountain tops at sunset."}
           heading={"Pink & Purple Sunset"}
           description={
             "Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper."
@@ -18,6 +19,7 @@ export default class CardWrapper extends Component {
         ></Card>
         <Card
           imgId={"image2"}
+          imgAria={'Portrait of palm trees with a bright pink and peach sunset in the background.'}
           heading={"Sublime Trees"}
           description={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet…"
