@@ -71,6 +71,7 @@
         width: 100%;
         flex-direction: row;
         height: 50vh;
+        justify-content: space-between;
     }
 
     .footer__column{
@@ -79,10 +80,12 @@
     }
 
     .footer__column--1{
+        margin-right: 15%;
         order: 2;
         justify-content: space-between;
     }
     .footer__column--2{
+        margin-left: 15%;
         order: 1;
     }
 

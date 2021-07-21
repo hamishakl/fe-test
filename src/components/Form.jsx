@@ -16,7 +16,7 @@ export default class Form extends Component {
   render() {
     return (
       <>
-        <p>Form title</p>
+        <p className="form__heading">Form title</p>
         <form onSubmit={this.formSubmit} className="form">
           <div className="form__input__wrapper">
             <input

@@ -49,8 +49,18 @@ body, html, #root {
 }
 
 @media (min-width: 700px){
+    
+    .wrapper {
+        width: 70%;
+    }
+
     .form__wrapper{
-        height: 67vh;
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+
+    .divider {
+        width: 20%;
     }
 
     .card__wrapper {
@@ -62,5 +72,9 @@ body, html, #root {
 
     .gallery {
         width: 70%;
+    }
+
+    .heading {
+        height: 10vh;
     }
 }
