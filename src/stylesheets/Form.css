@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 68%;
+    height: 66%;
     width: 95%;
 }
 
@@ -12,8 +12,17 @@
     font-size: 14px;
 }
 
+.form__input__wrapper {
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .form__input {
-    height: 3.3em;
+    height: 3.5em;
     width: 90%;
     border-radius: 7px;
     padding: 0 1em 0 1em;
@@ -22,8 +31,14 @@
     color: #697B95;
 }
 
+.form__input:focus{
+    outline: none;
+}
+
 .form__select {
     width: 99%;
+    -webkit-appearance:none;
+
 }
 
 .form__submit-btn {
