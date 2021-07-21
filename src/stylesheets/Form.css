@@ -54,7 +54,7 @@
 @media (min-width: 700px){
     .form{
         width: 100%;
-        height: 50%;
+        height: 57%;
     }
 
     .form__input{
@@ -72,7 +72,7 @@
     }
 
     .form__input__wrapper {
-        height: 85%;
+        height: 71%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
