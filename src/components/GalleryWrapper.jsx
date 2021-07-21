@@ -14,12 +14,12 @@ export default class GalleryWrapper extends Component {
   render() {
     return (
       <section className="gallery">
-        <GalleryImg imgSrc={image3} />
-        <GalleryImg imgSrc={image4} />
-        <GalleryImg imgSrc={image5} />
-        <GalleryImg imgSrc={image6} />
-        <GalleryImg imgSrc={image1} />
-        <GalleryImg imgSrc={image2} />
+        <GalleryImg imgSrc={image3} imgAlt={'A landscape of glaciers and a lake.'}/>
+        <GalleryImg imgSrc={image4} imgAlt={'A landscape of a small lake on top of a mountain.'}/>
+        <GalleryImg imgSrc={image5} imgAlt={'The tide coming in at a beach at dusk or dawn.'}/>
+        <GalleryImg imgSrc={image6} imgAlt={'Landscape photo of the sunset.'}/>
+        <GalleryImg imgSrc={image1} imgAlt={'Landscape of mountain tops captured late at night.'}/>
+        <GalleryImg imgSrc={image2} imgAlt={'Portrait of palm trees infront of a sunset.'}/>
       </section>
     );
   }
