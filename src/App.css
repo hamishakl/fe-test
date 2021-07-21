@@ -21,11 +21,24 @@ body, html {
     border-bottom: 2px grey dotted;
 }
 
-.gallery__wrapper {
+.card__wrapper {
     height: auto;
 }
 
 .form__wrapper {
     height: 90vh;
     justify-content: space-evenly;
+}
+
+.gallery{
+    height: 33vh;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.gallery__image{
+    height: 100%;
+    border-radius: 0.4em;
+    margin-right: 1em;
 }
