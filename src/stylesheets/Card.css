@@ -38,3 +38,10 @@
     color: #008FFF;
     text-decoration: none;
 }
+
+@media (min-width: 700px){
+    .card {
+        width: 48%;
+        height: 40vh;
+    }
+}

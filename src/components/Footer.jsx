@@ -9,6 +9,9 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="footer">
+        
+        <div className="footer__column footer__column--1">
+
         <div className="footer__text__wrapper">
           <h5 className="footer__heading">Main Office</h5>
           <p className="footer__text">6235 Thalia Terrace Apt. 695</p>
@@ -20,6 +23,9 @@ export default class Footer extends Component {
           <p className="footer__text">735-421-6378</p>
           <a className="footer__email" href="mailto:myname@gmail.com">myname@gmail.com</a>
         </div>
+        </div>
+        <div className="footer__column footer__column--2">
+
         <div className="footer__social__wrapper">
           <div className="footer__social__svg__wrapper">
             <Facebook />
@@ -35,6 +41,7 @@ export default class Footer extends Component {
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
           nibh.
         </p>
+        </div>
       </footer>
     );
   }

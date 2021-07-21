@@ -21,7 +21,6 @@
     width: 99%;
 }
 
-
 .form__submit-btn {
     height: 4em;
     width: 85%;
@@ -30,4 +29,33 @@
     border: 1px solid rgb(128, 209, 128);
     color: white;
     font-weight: bold;
+}
+
+@media (min-width: 700px){
+    .form{
+        width: 50%;
+        
+    }
+
+    .form__input{
+        width: 44%;
+    }
+
+    .form__select{
+        width: 48%;
+    }
+
+    .form__submit-btn{
+        width: 35%;
+        
+    }
+
+    .form__input__wrapper {
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
 }
