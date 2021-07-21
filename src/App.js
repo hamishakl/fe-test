@@ -1,11 +1,17 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+
+import './App.css'
+import './stylesheets/reset.css'
+
+import Form from "./components/Form";
+import HeadingText from "./components/HeadingText";
 
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <div className="wrapper">
+        <HeadingText />
+        <Form />
+    </div>
   );
 }
 
